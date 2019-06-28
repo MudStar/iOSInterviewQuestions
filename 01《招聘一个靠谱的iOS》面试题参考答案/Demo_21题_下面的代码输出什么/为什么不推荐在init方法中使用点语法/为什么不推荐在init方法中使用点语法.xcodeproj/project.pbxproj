@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A9508C61BBC315200658616 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9508B81BBC315200658616 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		9A9508C71BBC315200658616 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9508B91BBC315200658616 /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
-		9A9508C81BBC315200658616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9508BB1BBC315200658616 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		9A9508C91BBC315200658616 /* ChenPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9508BE1BBC315200658616 /* ChenPerson.m */; settings = {ASSET_TAGS = (); }; };
-		9A9508CA1BBC315200658616 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9508BF1BBC315200658616 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
-		9A9508CB1BBC315200658616 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A9508C01BBC315200658616 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		9A9508CC1BBC315200658616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9508C11BBC315200658616 /* main.m */; settings = {ASSET_TAGS = (); }; };
-		9A9508CD1BBC315200658616 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9508C31BBC315200658616 /* Person.m */; settings = {ASSET_TAGS = (); }; };
-		9A9508CE1BBC315200658616 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9508C51BBC315200658616 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9A9508C61BBC315200658616 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9508B81BBC315200658616 /* AppDelegate.m */; };
+		9A9508C71BBC315200658616 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9508B91BBC315200658616 /* LaunchScreen.xib */; };
+		9A9508C81BBC315200658616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9508BB1BBC315200658616 /* Main.storyboard */; };
+		9A9508C91BBC315200658616 /* ChenPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9508BE1BBC315200658616 /* ChenPerson.m */; };
+		9A9508CA1BBC315200658616 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9508BF1BBC315200658616 /* Images.xcassets */; };
+		9A9508CC1BBC315200658616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9508C11BBC315200658616 /* main.m */; };
+		9A9508CD1BBC315200658616 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9508C31BBC315200658616 /* Person.m */; };
+		9A9508CE1BBC315200658616 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9508C51BBC315200658616 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,11 +107,12 @@
 		9AF373451B920A1300889D8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "http://weibo.com/luohanchenyilong/ 微博@iOS程序犭袁";
 				TargetAttributes = {
 					9AF3734C1B920A1300889D8B = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = B736B7MJ7R;
 					};
 				};
 			};
@@ -121,6 +121,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -139,7 +140,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9508CB1BBC315200658616 /* Info.plist in Resources */,
 				9A9508CA1BBC315200658616 /* Images.xcassets in Resources */,
 				9A9508C71BBC315200658616 /* LaunchScreen.xib in Resources */,
 				9A9508C81BBC315200658616 /* Main.storyboard in Resources */,
@@ -187,23 +187,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -231,17 +243,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -269,8 +292,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B736B7MJ7R;
 				INFOPLIST_FILE = "为什么不推荐在init方法中使用点语法/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChenYilong.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "为什么不推荐在init方法中使用点语法";
 			};
 			name = Debug;
@@ -279,8 +304,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B736B7MJ7R;
 				INFOPLIST_FILE = "为什么不推荐在init方法中使用点语法/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChenYilong.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "为什么不推荐在init方法中使用点语法";
 			};
 			name = Release;
